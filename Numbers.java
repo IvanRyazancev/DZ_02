@@ -23,21 +23,21 @@ public class Numbers implements Operations{
 
     @Override
     public void summa() {
-        S
+        System.out.println(number1 + " + " + number2 + " = " + (number1 + number2));
     }
 
     @Override
     public void subtraction() {
-
+        System.out.println(number1 + " - " + number2 + " = " + (number1 - number2));
     }
 
     @Override
     public void multiplication() {
-
+        System.out.println(number1 + " * " + number2 + " = " + (number1 * number2));
     }
 
     @Override
     public void division() {
-
+        System.out.println(number1 + " / " + number2 + " = " + (number1 / number2));
     }
 }
